@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #339966;
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-div {
+  width: 500px;
+  padding: 2% 2% 2% 2%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.search-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.search-div input {
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #339966;
+  outline: none;
+  padding-left: 10px;
+}
+.search-div button {
+  width: 25%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #339966;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}
+
+.result {
+  margin: 10px 0 0 0;
+}
+.result .flag {
+  width: 50%;
+  height: auto;
+  margin: 10px auto 10px auto;
+  display: block;
+  -webkit-box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.51);
+          box-shadow: 2px 5px 8px -1px rgba(0, 0, 0, 0.51);
+}
+.result .name {
+  text-align: center;
+}
+.result h3 {
+  text-align: center;
+}
+
+.data-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 1%;
+}
+.data-div h4 {
+  margin-right: 10px;
+}
+.data-div span {
+  color: #339966;
+}
+
+.error {
+  color: #ff6666;
+}
